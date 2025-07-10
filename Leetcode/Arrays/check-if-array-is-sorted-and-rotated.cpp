@@ -30,6 +30,19 @@ public:
         int count = 0;
         int n = nums.size();
         for (int i = 0; i < n; i++) {
+            if (nums[i] > nums[(i + 1) % n]) {//this condition will only work for one time i.e. when largest element compared with smallest element
+                count++;
+            }
+        }
+        if ( count <= 1)return true;
+        return false;
+    }
+};class Solution {
+public:
+    bool check(vector<int>& nums) {
+        int count = 0;
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
             if (nums[i] > nums[(i + 1) % n]) {
                 count++;
             }
