@@ -1,6 +1,6 @@
 # Leetcode Problem: https://leetcode.com/problems/maximum-length-of-a-good-subsequence-ii/
 # Problem Number: 3201
-# Problem Name: Maximum Length of a Good Subsequence II
+# Problem Name: Maximum Length of a Valid Subsequence 
 # Level: Medium
 # Tags: Greedy, Array, Parity, DP-style
 
