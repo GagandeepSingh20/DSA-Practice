@@ -4,7 +4,7 @@
 // Level: Easy
 // Tags: Tree, Depth-First Search, Binary Tree
 
-/*
+"""
 🧠 Problem Summary:
 Given the root of a binary tree, return the length of the diameter of the tree.
 The diameter of a binary tree is the length of the longest path between any two nodes.
@@ -21,7 +21,7 @@ Explanation: The longest path is [4,2,1,3] or [5,2,1,3], and it has 3 edges.
 
 🧮 Time Complexity: O(n), where n is the number of nodes.
 🧮 Space Complexity: O(h), where h is the height of the tree (due to recursion stack).
-*/
+"""
 
 /**
  * Definition for a binary tree node.
