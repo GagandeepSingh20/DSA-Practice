@@ -1,7 +1,5 @@
 /*
-LeetCode Problem: 3659. Partition Array Into Equal Sum Subarrays
-Problem Link: https://leetcode.com/problems/partition-array-into-equal-sum-subarrays/
-
+LeetCode Problem: 3659. Partition Array Into K-distinct groups
 Difficulty: Medium
 Tags: Array, Hashing, Sorting, Greedy
 
